@@ -16,7 +16,7 @@ def get_zones_coord(taxi_zones_path):
         while True:
             try:
                 poly = shape.next()
-                poly_id = poly['id']
+                poly_id = poly['properties']['OBJECTID']
                 poly_coords = poly['geometry']['coordinates'][0]
                 centroid = find_centroid(poly_coords)
                 zones_coord_dict[poly_id] = centroid
@@ -30,7 +30,7 @@ def parse_centriod_count(counts,zones_coord_dict):
     id_list = []
     for poly_id, count in counts.items():
         try:
-            lon,lat = zones_coord_dict[str(poly_id)]
+            lon,lat = zones_coord_dict[poly_id]
             id_list.append(str(poly_id))
             lat_list.append(lat)
             lon_list.append(lon)
