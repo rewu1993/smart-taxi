@@ -8,6 +8,9 @@ FARE_RANGE = {
     3:"$ 30+ "
 }
 
+def get_nearest_amount(data,idc):
+    return data[idc]
+
 def cab_assistant(input_feature,clf,neigh,y_train):
     rf_pred = clf.predict(input_feature)[0]
     idcs = neigh.kneighbors(input_feature,n_neighbors = 10, return_distance=False)
@@ -19,6 +22,7 @@ def cab_assistant(input_feature,clf,neigh,y_train):
     print ('Most Similar Historical Fare Records Based on the Input: ')
     print (neigh_pred)
     print ('Historical Fare Records Median: ', median_res)
+    print ('=================================================================')
 
 def read_tpu_hour():
     sub_chap_num = int(input("Enter the pickup hour (0-24): "))
@@ -49,21 +53,27 @@ def read_Tmax():
 def read_Tmin():
     val = float(input("Enter the min temperature (F): "))
     return val
+def print_welcome():
+    messg = '**************************NYC CAB ASSISTANT PROGRAM**************************'
+    print (messg)
 
 
 def main():
     clf = load('rf_clf.joblib') 
     neigh = load('kn.joblib') 
     y_train = np.load('y_train.npy')
-    tpu_hour = read_tpu_hour()
-    pu_id = read_puid_hour()
-    prep = read_precipitation()
-    snow = read_snow()
-    Tmin = read_Tmin()
-    Tmax = read_Tmax()
-    input_feature = np.array([tpu_hour,pu_id,prep,snow,Tmax,Tmin]).reshape(-1,6)
+    
+    while True:
+        print_welcome() 
+        tpu_hour = read_tpu_hour()
+        pu_id = read_puid_hour()
+        prep = read_precipitation()
+        snow = read_snow()
+        Tmin = read_Tmin()
+        Tmax = read_Tmax()
+        input_feature = np.array([tpu_hour,pu_id,prep,snow,Tmax,Tmin]).reshape(-1,6)
 
-    cab_assistant(input_feature,clf,neigh,y_train)
+        cab_assistant(input_feature,clf,neigh,y_train)
 
 if __name__ == '__main__':
     main()
