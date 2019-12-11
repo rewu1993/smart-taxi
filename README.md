@@ -39,7 +39,7 @@ Data source:
 | <a href="http://geomechanics.berkeley.edu/people/renjie-wu/" target="_blank">**Renjie Wu**</a> | <a href="https://www.linkedin.com/in/dilu-xu-255a63190/" target="_blank">**Dilu Xu**</a> |
 | :---: |:---:| 
 | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) 
-|PhD Student, Civil and Environmental Engineering, UC Berkeley| <M.S. Student, Civil and Environmental Engineering, UC Berkeley |
+|PhD Student, Civil and Environmental Engineering, UC Berkeley| M.S. Student, Civil and Environmental Engineering, UC Berkeley |
 
 
 ---
