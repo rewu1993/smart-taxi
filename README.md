@@ -1,5 +1,5 @@
-<a href="https://github.com/rewu1993/smart-taxi/blob/master/result/figures/taxi_zones.png" title="NYC Taxi Zones" alt="NYC Taxi Zones"></a>
 
+![alt text](https://github.com/rewu1993/smart-taxi/blob/master/result/figures/taxi_zones.png)
 # Save the Newbie Taxi Drivers in NYC! 
 
 > Subtitle or Short Description Goes Here
