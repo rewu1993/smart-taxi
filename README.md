@@ -1,10 +1,6 @@
-<a href="http://fvcproductions.com"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="FVCproductions" alt="FVCproductions"></a>
+<a href="https://github.com/rewu1993/smart-taxi/blob/master/result/figures/taxi_zones.png" title="NYC Taxi Zones" alt="NYC Taxi Zones"></a>
 
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
-
-***INSERT GRAPHIC HERE (include hyperlink in image)***
-
-# Repository Title Goes Here
+# Save the Newbie Taxi Drivers in NYC! 
 
 > Subtitle or Short Description Goes Here
 
