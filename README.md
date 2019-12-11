@@ -10,7 +10,7 @@ Taxis (including Uber and Lyft) are inseparable parts of the modern transportati
 This study uses NYC’s signature yellow cabs as a demonstration. Similar analyses can be performed on other dataset such as UBER to other major cities. To produce reasonable guidelines, both taxi trip data and weather condition data of the city have been analyzed using computation knowledge we have learned throughout the semester. In addition, machine learning techniques are used to develop tools for estimating the driving profit. 
 
 ## Methodology 
-- Data Preprocessing: [Data Preparation](https://github.com/rewu1993/smart-taxi/blob/master/data_preparation.ipynb)
+- Data Preprocessing: [Data Preparation](https://github.com/rewu1993/smart-taxi/blob/master/data_preparation.ipynb);
 [Data Aggregation](https://github.com/rewu1993/smart-taxi/blob/master/data_aggregation.ipynb)
 
 - Guidelines: [Data Exploration](https://github.com/rewu1993/smart-taxi/blob/master/data_exploration.ipynb)
@@ -22,7 +22,7 @@ Data source:
 - [Weather Data](https://www.ncdc.noaa.gov/)
 
 ## Results
-- Top 10 MUST KNOW Places 
+- Top 10 **MUST KNOW** Places 
 
 ![alt text](https://github.com/rewu1993/smart-taxi/blob/master/result/figures/top10_places.png)
 
@@ -32,6 +32,7 @@ Data source:
 
 - Fare Estimation Tool 
 
+![alt text](https://github.com/rewu1993/smart-taxi/blob/master/result/figures/program_demo.png)
 
 ## Team
 
