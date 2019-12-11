@@ -38,7 +38,7 @@ Data source:
 
 | <a href="http://geomechanics.berkeley.edu/people/renjie-wu/" target="_blank">**Renjie Wu**</a> | <a href="https://www.linkedin.com/in/dilu-xu-255a63190/" target="_blank">**Dilu Xu**</a> |
 | :---: |:---:| 
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) 
+| <img src="https://github.com/rewu1993/smart-taxi/blob/master/demo/renjie.png" width="200"> | <img src="https://github.com/rewu1993/smart-taxi/blob/master/demo/dilu.png" width="200"> 
 |PhD Student, Civil and Environmental Engineering, UC Berkeley| M.S. Student, Civil and Environmental Engineering, UC Berkeley |
 
 
