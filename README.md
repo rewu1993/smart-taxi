@@ -2,7 +2,7 @@
 ![alt text](https://github.com/rewu1993/smart-taxi/blob/master/result/figures/taxi_zones.png)
 # Save the Newbie Taxi Drivers in NYC! 
 
-> Practical guidelines for new taxi drivers in NYC from BIG DATA  && Machine Learning powered fare estimation tool
+> Practical guidelines for new taxi drivers in NYC && Machine Learning powered fare estimation tool
 
 
 Taxis (including Uber and Lyft) are inseparable parts of the modern transportation system. As the total population and sizes of cities grow steadily in recent years, demand for taxis increases too. U.S. Bureau of Labor Statistics forecasts that the projected percent change in taxi driver employment from 2018 to 2028 is 20 percent, which is significantly higher than the average growth rate for all occupations, 5 percent [1].  With more and more people coming to big cities searching for taxi driver jobs, it will be valuable to provide basic driving guidelines and profit estimation tools for new taxi drivers, which may help shorten their learning time and maximize the profits of their hard work.  
