@@ -1,4 +1,5 @@
 from joblib import dump, load
+import numpy as np
 
 FARE_RANGE = {
     0:"$ 0-10 ",
@@ -53,6 +54,7 @@ def read_Tmin():
 def main():
     clf = load('rf_clf.joblib') 
     neigh = load('kn.joblib') 
+    y_train = np.load('y_train.npy')
     tpu_hour = read_tpu_hour()
     pu_id = read_puid_hour()
     prep = read_precipitation()
@@ -60,10 +62,11 @@ def main():
     Tmin = read_Tmin()
     Tmax = read_Tmax()
     input_feature = np.array([tpu_hour,pu_id,prep,snow,Tmax,Tmin]).reshape(-1,6)
-    
+
     cab_assistant(input_feature,clf,neigh,y_train)
 
-
+if __name__ == '__main__':
+    main()
 
 
 
